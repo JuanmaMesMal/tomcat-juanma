@@ -16,16 +16,27 @@
         - y por ultimo le damos el nombre al usuario en este caso tomcat9
 ![Creacion Usuario y Grupo](assets/img/CreacionGrupoUser.png)
 
+
 ## Comprobamos y iniciamos el servicio
 - Para esto tenemos que utilizar un systemctl start para iniciar el servicio y para comprobar un status.
 ![Comprobacion y iniciar servicio](assets/img/comprobacionServicio.png)
-- Para acceder a el podemos acceder de diferentes formas con localhost:8080 pero esto si usamos un ubuntu grafico, si es remeto lo que tenemos que hacer es accedir al fichero context.xml dentro del directorio "/usrna/share/tomcat9-admin/host-manager/META-INF/" (EN MI CASO NO ME SALE CON tomcat9-admin yo tengo que poner tomcat9-root) y cambiarlo por: 
-![ruta context](assets/img/rutacontext.png)
-![base context](assets/img/basecontext.png)
-![bien context](assets/img/correccioncontext.png)
-- lo reiniciamos el servicio 
+- Para acceder a el podemos acceder de diferentes formas con localhost:8080 pero esto si usamos un ubuntu grafico, si es remeto lo que tenemos que hacer es usar el comando  hostname -I para saber la ip, con esto buscamos desde windows la ip de la maquina y añadimos :8080
+![Its works](assets/img/itsworks.png)
 
 ## Configuracion de la administración
 - Ahora vamos a definir el usuario con acceso a Tomcat 
 ![Usuario y permisos](assets/img/UsuarioYpermisos.png)
 
+## Instalacion de adminsitrador web
+- instalamos servicio
+![Instalacion tomcat admin](assets/img/instalacionAdmin.png)
+- ahora nos metemos en "http://localhost:8080/manager/html" que en caso de windows es con la ip, y nos pedira registrarnos y ponemos alumno y contraseña 1234
+![Registrarse](assets/img/registrarse1.png)
+![Registrarse 1234](assets/img/alumno1234.png)
+![Acceso alumno1234](assets/img/accesoalumno1234.png)
+
+- Y ahora lo hacemos en la ruta "http://localhost:8080/host-manager/html"
+![Segunda ruta](assets/img/segundaruta.png)
+![Acceso a Segunda ruta](assets/img/accesoruta2.png)
+
+## Despliegue manual mediante GUI
