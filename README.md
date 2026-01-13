@@ -40,3 +40,7 @@
 ![Acceso a Segunda ruta](assets/img/accesoruta2.png)
 
 ## Despliegue manual mediante GUI
+-Nos descargamos el archivo tomcat1.war y luego lo añadimos en la seccion que nos permite desplegar war manuelmente y lo añadimos
+![Añadimos tomcat1.war](assets/img/añadimostomcat1.png)
+- Comprobamos que funciona 
+![Tomcat1 Funciona](assets/img/tomcat1funciona.png)
