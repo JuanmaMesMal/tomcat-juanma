@@ -56,3 +56,15 @@
 - Añadimos en el archivo de tomcat-users.xml otro usuario y contraseña
 ![Usuario Maven](assets/img/añadimosusuariomaven.png)
 - Luego vamos a modificar el archivo settings.xml en la ruta /etc/maven/settings.xml
+![Modificación settings.xml](assets/img/añadimosusuarioasettings.png)
+- Lo siguiente es entrar al directorio personal y crear una app de prueba
+![Creacion de app de prueba](assets/img/creacionappprueba.png)
+- Ahora lo siguiente que tenemos que hacer es acceder despues de que se cree, a la carpeta que ha creado (cd tomcat-war-deployment), en mi caso no me ha creado ese nombre me ha creado tomcat-war
+![Entrar a la app y modificar el archivo pom](assets/img/RutayModificarpom.png)
+- Una vez dentro modificamos el apartado de build
+![Basepom](assets/img/basepom.png)
+- Y añadimos el siguiente texto.
+![Pom modificado](assets/img/pommodificao.png)    
+- Y para acceder usamos la ip y añadimos esta ruta http://192.168.56.10:8080/despliegue/
+
+
