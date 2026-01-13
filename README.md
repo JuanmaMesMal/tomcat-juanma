@@ -74,3 +74,8 @@
 ![Hacemos git clone y entramos con cd](assets/img/Gitcloneyentramos.png)  
 - Nos cambiamos de rama usando este comando (git checkout patch-1)
 ![Cambiamos rama](assets/img/checkout.png)
+- Lo sigueinte que hay que hacer es mirar en el archivo pom 
+![Añadimos codigo a pom](assets/img/Añadimospompiedra.png)
+        - aqui he tenido un error que repito dos veces "artifactId" 
+- Y lo habrimos en la google (http://192.168.56.10:8080/rockpaperscissors/#) y ponemos nuestra ip en vez de localhost
+![Pagina funcionando](assets/img/RockPaperScissors.png)
