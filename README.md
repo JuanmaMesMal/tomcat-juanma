@@ -66,5 +66,11 @@
 - Y añadimos el siguiente texto.
 ![Pom modificado](assets/img/pommodificao.png)    
 - Y para acceder usamos la ip y añadimos esta ruta http://192.168.56.10:8080/despliegue/
+![Hello World](assets/img/helloWorld.png)    
 
-
+## Prueba
+- Clonamos un repositorio de git (git clone https://github.com/cameronmcnz/rock-paper-scissors.git)
+- Nos metemos en el directorio
+![Hacemos git clone y entramos con cd](assets/img/Gitcloneyentramos.png)  
+- Nos cambiamos de rama usando este comando (git checkout patch-1)
+![Cambiamos rama](assets/img/checkout.png)
