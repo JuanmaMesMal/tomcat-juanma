@@ -44,3 +44,15 @@
 ![Añadimos tomcat1.war](assets/img/añadimostomcat1.png)
 - Comprobamos que funciona 
 ![Tomcat1 Funciona](assets/img/tomcat1funciona.png)
+
+# Despliegue con Maven
+## Instalación de Maven
+- Instalamos el servicio. (sudo apt-get update && sudo apt-get -y install maven)
+![Instalacion Maven](assets/img/instalacionmaven.png)
+        - comprobamos con mvn --v
+        ![Version Maven](assets/img/version.png)
+
+## Configuración
+- Añadimos en el archivo de tomcat-users.xml otro usuario y contraseña
+![Usuario Maven](assets/img/añadimosusuariomaven.png)
+- Luego vamos a modificar el archivo settings.xml en la ruta /etc/maven/settings.xml
